@@ -35,12 +35,3 @@ filtered <- mtcars %>%
 print(filtered)
 
 # Plot
-ggplot(mtcars, aes(x = wt, y = mpg, color = cyl)) +
-  geom_point(size = 3) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    title = "Fuel Efficiency vs Weight",
-    x = "Weight",
-    y = "Miles per Gallon"
-  ) +
-  theme_minimal()
