@@ -39,11 +39,10 @@ ggplot(mtcars, aes(x = wt, y = mpg, color = cyl)) +
   geom_point(size = 3) +
   geom_smooth(method = "lm", se = FALSE) +
   labs(
-    title = "different name",
+    title = "change title again",
     x = "Weight",
     y = "Miles per Gallon"
   ) +
   theme_minimal()
 
 
-# aggiungo una riga di prova 
